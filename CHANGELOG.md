@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Added bridging of the `hlsDateRange` property from `PlayerConfiguration` to Android's `THEOplayerConfig`.
+
 ### Fixed
 
 - Fixed an issue on Android where `GoogleImaConfiguration.sessionId` was not properly passed.
